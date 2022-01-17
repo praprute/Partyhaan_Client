@@ -1,0 +1,42 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   background-color: #F9675C;
+   background-image: radial-gradient(at 0% 25%, rgb(217, 124, 245) 0, transparent 80%),
+   radial-gradient(at 50% 50%, rgb(168, 180, 214) 0, transparent 80%),
+   radial-gradient(at 100% 100%, rgb(255, 185, 210) 0, transparent 80%);
+}
+
+.gradient-bg-welcome {
+   background-color: #F9675C;
+  background-image:
+    radial-gradient(at 0% 25%, rgb(217, 124, 245) 0, transparent 80%),
+    radial-gradient(at 50% 50%, rgb(168, 180, 214) 0, transparent 80%),
+    radial-gradient(at 100% 100%, rgb(255, 185, 210) 0, transparent 80%);
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: transparent;
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+}
+/* a {
+  color: inherit;
+  text-decoration: none;
+} */
+
+* {
+  box-sizing: border-box;
+}
