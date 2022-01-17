@@ -14,7 +14,7 @@ export default function Party() {
 	useEffect( async () => {
 		try {
 			let responseParty = await getParty()
-			console.log(responseParty);
+			
 			if (responseParty.success == 'success') {
 				setItemsParty(responseParty.message);
 			}

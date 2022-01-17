@@ -162,7 +162,6 @@ export default function FormRegister() {
 					setSuccessRegis(false);
 				}
 
-				console.log('Register : ', Register);
 			} else {
 				setErrorPassword({
 					...errorPassword,
@@ -174,7 +173,7 @@ export default function FormRegister() {
 					status: true,
 					value: 'กรุณาตรวจสอบรหัสผ่านของท่าน',
 				});
-				console.log('password dont match');
+			
 			}
 		} catch (err) {
 			console.log(err);

@@ -125,7 +125,6 @@ export default function FormCreate() {
 
 	const handleSubmit = async (event) => {
 		event.preventDefault();
-		console.log('typeSelect : ', typeSelect);
 
 		try {
 			if (values.partyName == '') {
@@ -226,7 +225,7 @@ export default function FormCreate() {
 				} else {
 					setSuccessCreate(false);
 				}
-				console.log(responseCreate);
+			
 			}
 		} catch (err) {
 			console.log(err);

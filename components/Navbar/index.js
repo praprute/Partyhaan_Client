@@ -17,10 +17,6 @@ const Navbar = () => {
 	const [token, setToken] = useState(Cookies.get('tokenPartyHaan'));
 	const [auth, setAuth] = useState(false);
 
-	useEffect(() => {
-		console.log('token nav : ', token);
-	}, []);
-
 	const logOut = () => {
 		Cookies.remove('tokenPartyHaan');
 		router.push('/');
