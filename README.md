@@ -29,8 +29,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Example
 
-Login Page [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from 
-[Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.<img width="1680" alt="Screen Shot 2565-01-17 at 23 57 09" src="https://user-images.githubusercontent.com/43350959/149810624-77cab372-95b1-4d8b-98a8-b7293bda0743.png">
+Login Page 
+<img width="1680" alt="Screen Shot 2565-01-17 at 23 57 09" src="https://user-images.githubusercontent.com/43350959/149810624-77cab372-95b1-4d8b-98a8-b7293bda0743.png">
 
 
 
